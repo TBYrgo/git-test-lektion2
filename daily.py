@@ -2,7 +2,7 @@ from random import seed, randrange
 
 seed(None)
 
-files: list[str] = ['dog.txt', 'science.txt']
+files: list[str] = ['dog.txt', 'science.txt', 'computer.txt']
 
 all_lines: list[str] = []
 for filename in files:
